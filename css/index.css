@@ -1,0 +1,181 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #fd6d49;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+
+        .cnt {
+            width: 250px;
+            margin: 10px auto;
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .cover {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+
+        #avatar {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border: 8px solid #ffdd13;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        #left,
+        #right {
+            width: 30px;
+            height: 30px;
+            background: #ffe255;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn {
+            width: 250px;
+            margin: 10px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        button {
+            border: none;
+            outline: none;
+            margin: 5px 10px;
+        }
+
+        .ant-btn {
+            line-height: 1.499;
+            position: relative;
+            display: inline-block;
+            font-weight: 400;
+            white-space: nowrap;
+            text-align: center;
+            background-image: none;
+            border: 1px solid transparent;
+            -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+            cursor: pointer;
+            -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+            transition: all .3s cubic-bezier(.645, .045, .355, 1);
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            height: 32px;
+            padding: 0 15px;
+            font-size: 14px;
+            border-radius: 4px;
+            color: rgba(0, 0, 0, 0.65);
+            background-color: #fff;
+            border-color: #d9d9d9;
+        }
+
+        .ant-btn-primary {
+            color: #fff;
+            background-color: #1890ff;
+            border-color: #1890ff;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+            -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        }
+
+        .ant-btn-green {
+            color: #fff;
+            background-color: #80d741;
+            border-color: #80d741;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+            -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        }
+
+        .ant-btn-yellow {
+            color: #fff;
+            background-color: #ffe662;
+            border-color: #ffe662;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+            -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        }
+
+        #avatarSlect {
+            display: none;
+        }
+
+        .tips {
+            margin: auto;
+            font-size: 12px;
+            color: #fff;
+            margin-bottom: 5px;
+            width: 250px;
+        }
+
+        .title {
+            width: 230px;
+            height: 100px;
+            margin: 40px auto 0;
+            background-image: url(../imgs/banner.png);
+            background-size: cover;
+        }
+
+        .buttom {
+            width: 100%;
+            margin-top: 70px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .buttom a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+            margin: 0 10px;
+        }
+
+        svg path,
+        svg rect {
+            fill: #64a1eb;
+        }
+
+        .changes {
+            text-align: center;
+            width: 250px;
+            font-size: 12px;
+            color: #fff;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .changes input {
+            outline: none;
+        }
